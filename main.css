@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu { /* меню наложилось друг на друга, но это выравняем потом? */
+  font: 14px/1.36 'Open Sans', sans-serif;
+}
+.contacts__tel {
+  font: 26px/1.36 'Open Sans', sans-serif;
+}
+
+.contacts__graph {
+  font: 13px/1.36 'Open Sans', sans-serif;
+}
+
+h1 {
+  font: 700 72px/1.36 sans-serif;
+}
+
+.preview__text {
+  font: 18px/1.11 'Open Sans', sans-serif;
+}
+
+.button {
+  font: 700 14px/1.36 'Open Sans', sans-serif;
+}
+
+h2 {
+  font: 700 36px/1.36 'Open Sans', sans-serif;
+}
+
+h3 {
+  font: 700 24px/1.36 'Open Sans', sans-serif;
+}
+
+.hot-tours__options-text.news__text {
+  font: 16px/1.31 'Open Sans', sans-serif;
+}
+
+.hot-tours__text.news__date {
+  font: 14px/1.5 'Open Sans', sans-serif;
+}
+
+.news__subtitle {
+  font: 700 24px/1.5 'Open Sans', sans-serif;
+}
+
+.paginator__display {
+  font: 16px/1.25 'Open Sans', sans-serif;
+}
+
+.paginator__list {
+  font: 700 16px/1.3 'Open Sans', sans-serif;
+}
+
+.about__text {
+  font: 16px/1.6875 'Open Sans', sans-serif;
+}
+
+.contacts__text {
+  font: 11px/1.81 'Open Sans', sans-serif;
+}
