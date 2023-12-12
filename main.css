@@ -14,7 +14,10 @@ body {
 }
 
 .main-page-wrapper {
-  background-image: url(./images/1.png) , url(./images/2.png)
+  background-image: url(./images/1.png), url(./images/2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right -240px, bottom 125px right -240px;
+  background-color: #001821;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -43,7 +46,7 @@ ul, li {
 .header {
   position: relative;
   height: 123px;
-  margin-bottom: 78px;
+ /*  margin-bottom: 78px; */ 
 }
 
 .logo, .contacts, .menu {
@@ -55,7 +58,7 @@ ul, li {
 }
 
 .menu {
-  top: 39px;
+  top: 38px;
   left: 164px;
 } 
  
@@ -80,7 +83,7 @@ ul, li {
 
 .contacts {
   right: 0px;
-  top: 31px;
+  top: 28px;
   text-align: right;
   color: white;
 }
@@ -94,101 +97,137 @@ ul, li {
   display: block;
   font: 13px/1.1 'Open Sans', sans-serif;
   text-decoration: underline;
-  color: white;
+  color: #fff;
+  margin-top: -1px;
+  margin-right: 2px;
 }
 
-.preview__title { /*широта текста, подровнять*/
+.main {
+  margin-top: 76px;
+}
+
+.preview {
+  width: 100%;
+  height: 327px;
+}
+
+.preview__title {
   width: 520px;
-  font: 700 74px/1.3 sans-serif;
-  margin-bottom: 29px;
-  color: white;
+  font: 700 74px/1.33 sans-serif;
+  margin-bottom: 24px;
+  color: #fff;
+  letter-spacing: 0.85px;
+}
+
+.preview__text{
+  margin-bottom: 30px;
 }
 
 .preview__text p{
   display: inline-block;
   font: 18px/1.11 'Open Sans', sans-serif;
-  margin-bottom: 30px;
-  color: white;
+  color: #fff;
 }
 
-.button {
+.button--border {
   font-size: 14px;
   display: inline-block;
   background-color: #F5170E;
   border-radius: 35px;
-  padding: 17px 39px;
-  color:white;
+  padding: 20px 39px;
+  color:#fff;
   font-weight: 700;
   text-transform: uppercase;
   height: 55px;
   width: 168px;
   cursor: pointer;
+  border: transparent;
 }
 
-.hot__tours {
+.hot-tours {
+  height: 549px;
+  margin-top: 247px;
   margin-bottom: 120px;
 }
 
-.hot-tours__item{
-  display: inline-block;
-  width: 359px; /*поправить по видеосозвону*/
-  height: 449px;
-  margin-right: 27px;
-  background-color: white;
-}
-
-.hot-tours__item:last-child {
-  margin-right: 0px;
-}
-
-.hot-tours__image {
-  width: 362px;
-  height: 144px;
+.hot-tours__title {
+  margin-bottom: 50px;
 }
 
 .hot-tours__title-text {
   display: inline-block;
   font: 700 36px/1.36 'Open Sans', sans-serif;
-  margin-top: 249px;
-  margin-bottom: 50px;
   margin-left: 2px;
-  color: white;
+  color: #fff;
+  margin-top: 2px;
 }
 
 .hot-tours__title-icon {
+  vertical-align: text-bottom;
+  margin-top: 1px;
   display: inline-block;
   margin-left: 8px;
 }
 
+.hot-tours__item{
+  display: inline-block;
+  width: 361px; 
+  height: 449px;
+  margin-right: 24px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.hot-tours__options-item:last-child {
+  margin-right: 0px;
+}
+
+.hot-tours__item:last-child {
+  margin-right: 0;
+}
+
+.hot-tours__image {
+  width: 100%;
+  height: 143px;
+}
+
+.hot-tours__picture {
+  width: 100%;
+  height: 100%;
+}
+
 .hot-tours__content {
-  padding: 33px 21px;
+  padding: 35px 21px;
+  height: 308px;
 }
 
 .hot-tours__subtitle {
   font: 700 24px/1.36 'Open Sans', sans-serif;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 
 .hot-tours__options {
   vertical-align: middle;
+  margin-bottom: 20px;
 }
 
 .hot-tours__options-item {
   display: inline-block;
-  margin-right: 26px;
+  margin-right: 18px;
   height: 31px;
-  margin-bottom: 17px;
 }
 
 .hot-tours__options-icon {
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 6px;
+  margin-left: 6px;
 }
 
 .hot-tours__options-text {
   display: inline-block;
   font: 16px 'Open Sans', sans-serif;
-  vertical-align: top;
+  vertical-align: 6px;
 }
 
 .hot-tours__text {
@@ -197,17 +236,18 @@ ul, li {
 }
 
 .button--size {
-  width: 135px;
+  width: 138px;
   height: 55px;
   font-size: 14px;
   display: inline-block;
-  background-color: white;
+  background-color: transparent;
   border-radius: 35px;
-  padding: 18px 30px;
+  padding: 16px 30px;
   color: #F5170E;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+  border-color: transparent;
   border-color: #F5170E;
 }
 
@@ -218,23 +258,29 @@ ul, li {
   display: inline-block;
   background-color: #F5170E;
   border-radius: 35px;
-  padding: 18px 30px;
-  color:white;
+  padding: 16px 30px;
+  color:#fff;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
   border-color: #F5170E;
 }
 
+.news {
+  margin-top: 126px;
+}
+
 .news__title {
   font: 700 36px/1.5 'Open Sans', sans-serif;
-  margin-top: 124px;
-  color: white;
+  color: #fff;
+}
+
+.news__list {
+  margin-top: 49px;
 }
 
 .news__item {
   display: inline-block;
-  margin-top: 49px;
   margin-right: 21px;
   width: 557px;
   height: 394px;
@@ -257,31 +303,32 @@ ul, li {
 
 .news-content {
   position: absolute;
-  bottom: -7px;
-  padding: 0px 37px;
-  min-height: 136px;
+  bottom: 0;
+  padding: 0px 30px;
+  min-height: 142px;
 } 
 
 .news__date {
-  color: white;
-  font: 14px/1.5 'Open Sans', sans-serif;
-  margin-bottom: 12px;
+  color: #fff;
+  font: 14px 'Open Sans', sans-serif;
+  margin-bottom: 14px;
+  display: block;
 }
 
 .news__subtitle {
-  font: 700 24px/1.5 'Open Sans', sans-serif;
-  color: white;
-  margin-bottom: 3px;
+  font: 700 24px'Open Sans', sans-serif;
+  color: #fff;
+  margin-bottom: 4px;
 }
 
 .news__text p{
-  color: white;
-  font: 16px/1.31 'Open Sans', sans-serif;
+  color: #fff;
+  font: 16px/1.5 'Open Sans', sans-serif;
 }
 
 .paginator {
   text-align: center;
-  margin-top: 53px;
+  margin-top: 52px;
 }
 
 .paginator__display, .paginator__list, .paginator__item, .paginator__link {
@@ -289,12 +336,16 @@ ul, li {
 }
 
 .paginator__display{
-  margin-right: 5px;
-  color: white;
+  margin-right: 23px;
+  color: #fff;
 }
 
 .paginator__display span {
-  color: white;
+  color: #fff;
+}
+
+.paginator__item {
+  margin-right: -3px;
 }
 
 .paginator__link {
@@ -303,27 +354,26 @@ ul, li {
   background: transparent;
   border-radius: 50%;
   font-weight: 700;
-  color: white;
+  color: #fff;
   font-size: 16px;
   line-height: 32px;
   transition: .4s;
-  margin-right: 20px;
 }
 
 .paginator-active {
   background: white;
   color: #F5170E;
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 .paginator__link:hover {
-  background: white;
+  background: #fff;
   color: #F5170E;
 
 }
 
 .about {
-  margin-top: 143px;
+  margin-top: 145px;
 }
 
 .about:before {
@@ -332,7 +382,7 @@ ul, li {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url("./images/gates.png"); center center / cover no-repeat;
+  background: url("./images/gates.png") center center / cover no-repeat;
 }
 
 /* .about__image {
@@ -369,19 +419,23 @@ ul, li {
   margin-bottom: 37px;
 }
 
-.about__text p{
+.about__text {
   font: 16px/1.6875 'Open Sans', sans-serif;
-  margin-bottom: 43px;
+  margin-bottom: 41px;
+}
+
+.footer-container {
+  border-top: 1px solid #fff;
 }
 
 .footer-container__content {
-  border-top: 1px solid #fff; /*почему не проходит border-top-color*/
+  /* border-top: 1px solid #fff; /*почему не проходит border-top-color*/
 }
 
 footer {
   margin-top: 73px;
   position: relative;
-  height: 157px; 
+  height: 129px; /* 157 */
   position: relative;
 }
 
