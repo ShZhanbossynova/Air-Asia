@@ -1,0 +1,29 @@
+.footer-container {
+  margin-top: 73px;
+  border-top: 1px solid #192f37;
+}
+
+/* .footer-container__content {
+  /* border-top: 1px solid #fff; /*почему не проходит border-top-color*/
+
+.footer {
+  /* position: relative; */
+   /* 157 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__main-page {
+  height: 129px;
+}
+
+.footer__col {
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
+}

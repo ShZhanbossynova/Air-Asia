@@ -1,0 +1,45 @@
+.button--border {
+  font-size: 14px;
+  display: inline-block;
+  background-color: #F5170E;
+  border-radius: 35px;
+  padding: 20px 39px;
+  color:#fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 55px;
+  width: 168px;
+  cursor: pointer;
+  border: transparent;
+}
+
+.button--size {
+  width: 138px;
+  height: 55px;
+  font-size: 14px;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 35px;
+  padding: 16px 30px;
+  color: #F5170E;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-color: transparent;
+  border-color: #F5170E;
+}
+
+.button-color{
+  width: 135px;
+  height: 55px;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #F5170E;
+  border-radius: 35px;
+  padding: 16px 30px;
+  color:#fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-color: #F5170E;
+}

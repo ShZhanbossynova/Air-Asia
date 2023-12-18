@@ -4,36 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <title>Document</title>
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./CSS/main.css">
 </head>
 
 <body>
   <div class="wrapper main-page-wrapper">
     <div class="container">
       <header class="header">
-        <div class="logo">
-          <a href="#" class="logo__link">
-            <img src="./images/logo.png" alt="Лого" class="logo__icon">
-          </a>
+        <div class="header__col">
+          <div class="logo">
+            <a href="#" class="logo__link">
+              <img src="./images/logo.png" alt="Лого" class="logo__icon">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="tel:+88007003030" class="contacts__tel">8 800 700 30 30</a>
-          <span class="contacts__graph">График работы</span>
-        </address>
+        <div class="header__col header__col--align--right">
+          <address class="contacts">
+            <a href="tel:+88007003030" class="contacts__tel">8 800 700 30 30</a>
+            <span class="contacts__graph">График работы</span>
+          </address>
+        </div>
       </header>
       <main class="main">
         <div class="preview">
@@ -159,7 +164,7 @@
             </li>
           </ul>
           <div class="paginator">
-            <div class="paginator__display">Страница <span>1</span> из <span>7</span></div>
+            <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
               <li class="paginator__item">
                 <a href="#" class="paginator__link paginator-active">1</a>
@@ -186,65 +191,69 @@
           </div>
         </div>
         <div class="about">
-            <div class="about__content-text">
-              <h2 class="about__title">О нас</h2>
-              <div class="about__text">
-                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                  несколько абзацев более менее осмысленного текста рыбы на русском языке,
-                  а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                </p>
-              </div>
-              <div class="about__button">
-                <button class="button button--border">Подробнее</button>
-              </div>
+          <div class="about__content-text">
+            <h2 class="about__title">О нас</h2>
+            <div class="about__text">
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+              </p>
             </div>
+            <div class="about__button">
+              <button class="button button--border">Подробнее</button>
+            </div>
+          </div>
         </div>
       </main>
       <footer class="footer-container">
         <div class="container footer-container__content">
-          <div class="footer">
-            <div class="logo">
-              <a href="#" class="logo__link">
-                <img src="./images/logo.png" alt="Лого" class="logo__icon">
-              </a>
+          <div class="footer footer__main-page">
+            <div class="footer__col">
+              <div class="logo">
+                <a href="#" class="logo__link">
+                  <img src="./images/logo.png" alt="Лого" class="logo__icon">
+                </a>
+              </div>
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Главная</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Услуги</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Отзывы</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Главная</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Услуги</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="socials">
-              <ul class="socials__list">
-                <li class="socials__item">
-                  <a href="#" class="socials__link socials__icon-Tg">
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link socials__icon-Vk">
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link socials__icon-Fb">
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link socials__icon-Inst">
-                  </a>
-                </li>
-              </ul>
+            <div class="footer__col footer__col--align--right">
+              <div class="socials">
+                <ul class="socials__list">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link socials__icon-Tg">
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link socials__icon-Vk">
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link socials__icon-Fb">
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link socials__icon-Inst">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <address class="contacts">
+                <div class="contacts__text">Бесплатный звонок по России</div>
+                <a href="tel:+88007003030" class="contacts__tel">8 800 700 30 30</a>
+              </address>
             </div>
-            <address class="contacts">
-              <div class="contacts__text">Бесплатный звонок по России</div>
-              <a href="tel:+88007003030" class="contacts__tel">8 800 700 30 30</a>
-            </address>
           </div>
         </div>
       </footer>

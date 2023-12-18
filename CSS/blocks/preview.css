@@ -1,0 +1,22 @@
+.preview {
+  width: 100%;
+  height: 328px;
+}
+
+.preview__title {
+  width: 46%;
+  font: 700 74px/1.33 sans-serif;
+  margin-bottom: 5px;
+  color: #fff;
+  letter-spacing: 0.85px;
+}
+
+.preview__text{
+  margin-bottom: 15px;
+}
+
+.preview__text p{
+  display: inline-block;
+  font: 18px/1.11 'Open Sans', sans-serif;
+  color: #fff;
+}
