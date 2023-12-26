@@ -66,7 +66,7 @@
   font: 13px/1.1 'Open Sans', sans-serif;
   text-decoration: underline;
   color: #fff;
-  margin-top: -1px;
+  margin-top: -4px;
   margin-right: 2px;
 }
 
@@ -74,3 +74,63 @@
   font: 11px/1.81 'Open Sans', sans-serif;
   color: #9A9A9A;
 }
+
+.schedule {
+  position: relative;
+  transition: color 0.4s;
+}
+
+.schedule__info {
+  position: absolute;
+  right: 0;
+  padding: 9px 19px 15px;
+  border-radius: 5px;
+  background:  #EDEDED;
+  color: #1E1F20;
+  opacity: 0;
+  transition: opacity .4s;
+  top: 28px; 
+}
+
+.schedule__info::before {
+  position: absolute;
+  bottom: 100%;
+  right: 35px;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color:#EDEDED;
+  border-top: 0;
+  display: block;
+}
+
+.schedule__worktime {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.schedule__lunch {
+  font-weight: 600;
+}
+
+.schedule__worktime, .schedule__lunch {
+  font-size: 13px;
+  text-align: center;
+}
+
+.schedule__info::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 15px;
+}
+
+.schedule:hover .schedule__info {
+  opacity: 1;
+}
+
+

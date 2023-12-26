@@ -24,33 +24,41 @@
 }
 
 .socials__icon-Tg {
-  background-image: url('../../images/t.png');
+  background-image: url('../../images/css_sprites.png');
+  background-position: -96px -6px;
 }
 
 .socials__icon-Tg:hover {
-  background-image: url('../../images/t-hov.png');
+  background-image: url('../../images/css_sprites.png');
+  background-position: -192px -6px;
 }
 
 .socials__icon-Vk {
-  background-image: url('../../images/vk.png');
+  background-image:  url('../../images/css_sprites.png');
+  background-position: -384px -6px;
 }
 
 .socials__icon-Vk:hover {
-  background-image: url('../../images/vk-hov.png');
+  background-image:  url('../../images/css_sprites.png');
+  background-position: -144px -6px;
 }
 
 .socials__icon-Fb {
-  background-image: url('../../images/facebook1.png');
+  background-image: url('../../images/css_sprites.png');
+  background-position: -48px -6px;
 }
 
 .socials__icon-Fb:hover {
-  background-image: url('../../images/f2-hov.png');
+  background-image: url('../../images/css_sprites.png');
+  background-position: -288px -6px;
 }
 
 .socials__icon-Inst {
-  background-image: url('../../images/in.png');
+  background-image: url('../../images/css_sprites.png');
+  background-position: -240px -6px;
 }
 
 .socials__icon-Inst:hover {
-  background-image: url('../../images/in-hov.png');
+  background-image: url('../../images/css_sprites.png');
+  background-position: -336px -6px;
 }

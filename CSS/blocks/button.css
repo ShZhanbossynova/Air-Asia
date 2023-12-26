@@ -3,30 +3,14 @@
   display: inline-block;
   background-color: #F5170E;
   border-radius: 35px;
-  padding: 20px 39px;
+  padding: 16px 39px;
   color:#fff;
   font-weight: 700;
   text-transform: uppercase;
   height: 55px;
   width: 168px;
   cursor: pointer;
-  border: transparent;
-}
-
-.button--size {
-  width: 138px;
-  height: 55px;
-  font-size: 14px;
-  display: inline-block;
-  background-color: transparent;
-  border-radius: 35px;
-  padding: 16px 30px;
-  color: #F5170E;
-  font-weight: 700;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-color: transparent;
-  border-color: #F5170E;
+  border: transparent; 
 }
 
 .button-color{
@@ -42,4 +26,70 @@
   text-transform: uppercase;
   cursor: pointer;
   border-color: #F5170E;
+}
+
+.button--size {
+  width: 138px;
+  height: 55px;
+  font-size: 14px;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 35px;
+  padding: 16px 30px;
+  color: #F5170E;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #F5170E;
+}
+
+.button--transparent {
+  border: 1px solid#F5170E;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 17px 39px;
+  color:#F5170E;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 55px;
+  width: 168px;
+  cursor: pointer;
+} 
+
+.button-color-grey {
+  background: #8E8E8E;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 35px;
+  padding: 20px 39px;
+  width: 168px;
+}
+
+.button-color-grey:hover {
+  background: #2B2B2B;
+}
+
+.button-welcome {
+  font-size: 14px;
+  display: inline-block;
+  background-color: #F5170E;
+  border-radius: 35px;
+  padding: 20px 58px;
+  color:#fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 55px;
+  width: 168px;
+  cursor: pointer;
+  border: transparent; 
+}
+
+.button-welcome:hover {
+  box-shadow: inset 0 -3.25em 0 0 #F5170E;
 }

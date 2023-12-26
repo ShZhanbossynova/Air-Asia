@@ -47,3 +47,64 @@
   color: #F5170E;
   display: flex;
 }
+
+.paginator {
+  /* text-align: center; */
+  margin-top: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator--theme--dark {
+  color: #000;
+  margin-top: 58px;
+}
+
+.paginator--theme--dark .paginator__display{
+  margin-right: 28px;
+  margin-left: 39px;
+  color: #000;
+}
+
+.paginator__list {
+  display: flex;
+  align-items: center;
+}
+
+.paginator__item {
+  margin-right: 1px;
+  display: flex;
+}
+
+.paginator--theme--dark .paginator__link {
+  min-height: 32px;
+  min-width: 32px; 
+  background: transparent;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #000;
+  font-size: 16px;
+  line-height: 32px;
+  transition: .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginator--theme--dark .paginator-active {
+  background: #F5170E;
+  color: #fff;
+  margin-right: 2px;
+}
+
+.paginator--theme--dark .paginator__link:hover {
+  background: #F5170E;
+  color: #fff;
+  display: flex;
+}
+
+.reviews__paginator {
+  margin-top: 83px;
+  margin-left: -30px;
+}

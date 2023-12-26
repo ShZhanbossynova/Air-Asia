@@ -1,0 +1,32 @@
+.logo__service--page {
+  margin-right: 65px;
+}
+
+.top-line {
+  min-height: 412px;
+  background: url('../../images/headline1.png') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 23px;
+}
+
+.top-line__container {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-line__header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.page-title {
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+}

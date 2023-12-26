@@ -2,6 +2,7 @@
 @import url(./layout/normalize.css);
 @import url(./layout/base.css);
 
+/* главная страница */
 @import url(./blocks/header.css);
 @import url(./blocks/main.css);
 @import url(./blocks/preview.css);
@@ -13,7 +14,23 @@
 @import url(./blocks/footer.css);
 @import url(./blocks/socials.css);
 
-@import url(../services.css);
+/* услуги */
+@import url(../CSS/blocks/top-line.css);
+@import url(../CSS/blocks/breadcrumbs.css);
+@import url(../CSS/blocks/services.css);
+@import url(../CSS/blocks/inner-section.css);
+@import url(../CSS/blocks/partners.css);
+@import url(../CSS/blocks/inner-footer.css);
+
+/* отзывы */
+@import url(../CSS/blocks/reviews.css);
+
+/* приветственная страница */
+@import url(../CSS/blocks/welcomepage.css);
+
+
+
+
 
 
 
