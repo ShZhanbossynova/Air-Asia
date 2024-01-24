@@ -37,6 +37,10 @@
   font: 14px/1.36 'Open Sans', sans-serif;
 }
 
+.menu__item-active a{
+  color: #DA0100;
+}
+
 .menu__link {
   color: white;
 }

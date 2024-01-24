@@ -45,6 +45,7 @@
 .review__user:after {
   content: url(../../images/vk-blue\ 1.png);
   height: 30px;
+  margin-left: 8px;
 }
 
 .review__tags {
@@ -193,6 +194,8 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -9px;
+  margin-right: -6px;
 }
 
 .controls__item {
